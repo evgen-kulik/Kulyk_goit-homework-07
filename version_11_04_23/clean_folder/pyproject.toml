@@ -1,0 +1,23 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "Kulyk-goit-homework-07"
+version = "0.0.22"
+authors = [
+  { name="Kulyk", email="e.kulik.atom@gmail.com" },
+]
+description = "Cleaning folders"
+readme = "README.md"
+requires-python = ">=3.10"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+[project.urls]
+"Homepage" = "https://github.com/evgen-kulik/Kulyk_goit-homework-07"
+[project.scripts]
+clean-folder = "clean_folder:main"
+test-hello = "clean_folder:hello"

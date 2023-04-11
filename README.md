@@ -1,1 +1,0 @@
-# Kulyk_goit-homework-07
